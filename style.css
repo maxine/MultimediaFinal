@@ -321,8 +321,8 @@ main article header.article-meta>.photo-byline{
     .blackboard .pullquote-right, .blackboard .pullquote-left{
         float: none;
         border: none;
-        border-top: 3px solid rgba(169, 199, 230,1);
-        border-bottom: 3px solid rgba(169, 199, 230,1);
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
     }
 }
 
