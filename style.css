@@ -55,6 +55,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .rubyphill {
@@ -230,6 +232,15 @@ main article header.article-meta>.photo-byline{
     border-bottom: 3px solid black;
     display: block;
     width: 100%;
+    min-width: 200px;
+    margin: 0 auto 20px;
+}
+
+.line-beforeshort::before{
+    content: "";
+    border-bottom: 3px solid grey;
+    display: block;
+    width: 20%;
     min-width: 200px;
     margin: 0 auto 20px;
 }
@@ -569,7 +580,7 @@ h4 {
 
 .female-icon {
   display: inline-block;
-  margin: 50px;
+  margin-bottom: 30px;
   width: 70px;
   height: 70px;
   border-radius: 100px;
